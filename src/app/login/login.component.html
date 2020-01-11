@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="col-md-4 offset-4 mt-4 card">
+    <div class="card-body">
+      <h1>Login</h1>
+      <form #form="ngForm" (ngSubmit)="login(form)">
+        <div class="form-group">
+          <input
+            type="email"
+            ngModel
+            name="email"
+            class="form-control"
+            placeholder="email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="password"
+            ngModel
+            name="password"
+            class="form-control"
+            placeholder="password"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <button [disabled]="!form.valid" class="btn btn-secondary btn-block">
+            Login
+          </button>
+        </div>
+        <div class="form-group text-white bg-dark p-2">
+          <span>Don't have an account please </span>
+          <a routerLink="/signup">signup</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

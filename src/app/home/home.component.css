@@ -1,0 +1,16 @@
+.row {
+  background: white;
+  margin-top: -82px;
+}
+
+img {
+  width: 100%;
+  background-size: cover;
+}
+
+.col-md-6 {
+  margin: 0;
+}
+.leftHomeBlock {
+  padding: 82px;
+}

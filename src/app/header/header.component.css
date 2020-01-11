@@ -1,0 +1,29 @@
+svg {
+  fill: #fc8019;
+}
+
+.bodi {
+  margin-top: 188px;
+}
+
+div p {
+  position: relative;
+  top: 128px;
+  left: 65px;
+  color: darkgray;
+}
+
+div a {
+  position: relative;
+  top: 141px;
+  left: 60px;
+  color: black;
+  text-decoration: none;
+}
+
+.next {
+  margin-bottom: -79px;
+}
+.reg a {
+  top: -68px;
+}
